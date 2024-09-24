@@ -23,7 +23,6 @@ body{
 .photo-album ul,.variant ul{
 	list-style:none;
 	display:flex;
-	justify-content:space-between;
 }
 .product__info{
 	background-color:white;
@@ -40,4 +39,15 @@ body{
 }
 .benefits ul{
 	color:black;
+	font-size:12px
+}
+button{
+	border:none;
+	font-weight:900;
+	background-color:red;
+	color:white;
+	width:150px;
+	height:50px;
+	margin-left:100px;
+	border-radius:10px
 }
