@@ -1,1 +1,43 @@
 /* your code here */
+body{
+	font-family:Inter;
+	background-color:rgb(16,227,127);
+}
+.product{
+	display:flex;
+	justify-content:center;
+}
+
+.photo-main{
+	background-color:rgb(186,235,74);
+}
+.product__photo{
+	background-color:white
+}
+.controls{
+	display:flex;
+	color:white;
+	justify-content:space-between;
+	padding:10px;
+}
+.photo-album ul,.variant ul{
+	list-style:none;
+	display:flex;
+	justify-content:space-between;
+}
+.product__info{
+	background-color:white;
+	padding:15px;
+	color:rgb(167,167,167);
+}
+.title h1{
+	color:black
+}
+.price{
+	color:red;
+	font-size:45px;
+	margin-top:35px
+}
+.benefits ul{
+	color:black;
+}
